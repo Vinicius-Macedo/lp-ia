@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/main.js"></script>
+    <!-- HTML Meta Tags -->
+    <title>Seu Sucesso AI - Aumentando seu tempo</title>
+    <meta
+      name="description"
+      content="Tenha mais tempo e resultado, conteúdos poderosos gerados automaticamente por IA!"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://vinicius-macedo.github.io/pagespeed/dist/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Seu Sucesso AI - Aumentando seu tempo" />
+    <meta
+      property="og:description"
+      content="Tenha mais tempo e resultado, conteúdos poderosos gerados automaticamente por IA!"
+    />
+    <meta
+      property="og:image"
+      content="https://vinicius-macedo.github.io/pagespeed/dist/social-media-image.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="vinicius-macedo.github.io" />
+    <meta
+      property="twitter:url"
+      content="https://vinicius-macedo.github.io/pagespeed/dist/"
+    />
+    <meta
+      name="twitter:title"
+      content="Seu Sucesso AI - Aumentando seu tempo"
+    />
+    <meta
+      name="twitter:description"
+      content="Tenha mais tempo e resultado, conteúdos poderosos gerados automaticamente por IA!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://vinicius-macedo.github.io/pagespeed/dist/social-media-image.png"
+    />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,400&family=Poppins:wght@400;500;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <!-- Google fonts -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0e122b" />
+    <meta name="msapplication-TileColor" content="#0e122b" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="text-white bg-dark">
+    <header class="header">
+      <nav id="menu-dropdown" class="menu">
+        <a href="/" class="lg:w-[258px]">
+          <figure class="relative w-[80px] h-[40px]">
+            <img
+              class="object-contain"
+              src="/ia-logo-header.png"
+              alt="Nosso logo simbolizando o 8 deitado ou infinito"
+              width="80"
+              height="41.31"
+            />
+          </figure>
+        </a>
+        <ul class="lista">
+          <li class="item ml-auto">
+            <a href="#" class="link">Automações</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">Como funciona</a>
+          </li>
+          <li class="item">
+            <a href="#servicos" class="link">Preços</a>
+          </li>
+          <li class="item flex gap-4 lg:ml-auto">
+            <a
+              href="#"
+              class="bg-blue hover:bg-blue/90 text-white text-center font-semibold text-base px-4 py-[10px] rounded-full"
+              >Login</a
+            >
+            <a
+              href="#"
+              class="bg-[transparent] hover:bg-white/10 border border-solid border-white text-white text-center font-semibold text-base px-4 py-[10px] rounded-full"
+              >Registrar</a
+            >
+          </li>
+        </ul>
+        <div id="toggle-btn" class="toggle-btn">
+          <div class="bars"></div>
+        </div>
+      </nav>
+      <div id="overflow" class="overflow"></div>
+      <script>
+        var menu = document.getElementById("menu-dropdown");
+        var overflow = document.getElementById("overflow");
+        var items = document.querySelectorAll(".item");
+
+        function closeMenu() {
+          menu.classList.remove("open");
+          overflow.classList.remove("active");
+        }
+
+        document.getElementById("toggle-btn").addEventListener("click", (e) => {
+          document.getElementById("menu-dropdown").classList.toggle("open");
+          overflow.classList.toggle("active");
+        });
+
+        overflow.addEventListener("click", (e) => {
+          closeMenu();
+        });
+
+        items.forEach((item) => {
+          item.addEventListener("click", () => {
+            closeMenu();
+          });
+        });
+      </script>
+    </header>
+    <main>
+      <section class="default-bg" style="background-image: url(/bg-hero.webp)">
+        <div class="h-20"></div>
+        <div
+          class="default-layout flex flex-wrap-reverse gap-4 items-center justify-center lg:justify-between"
+        >
+          <div
+            class="w-full max-w-[540px] flex-col justify-start items-center lg:items-start gap-8 flex"
+          >
+            <div>
+              <h1 class="title">
+                Tenha mais tempo e resultado,
+                <span class="text-blue">conteúdos poderosos</span>
+                gerados automaticamente por IA
+              </h1>
+            </div>
+            <div class="justify-center items-start gap-4 flex">
+              <a href="#" class="default-btn"> Acessar agora </a>
+              <a href="#" class="default-btn outline-btn"> Saber mais </a>
+            </div>
+          </div>
+          <img
+            class="max-w-[404px] w-full h-auto"
+            src="ilustracao-laptop.svg"
+            width="404"
+            height="403"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </section>
+      <section class="bg-blue px-[10px] py-4">
+        <p class="text-center lg:text-[28px] font-bold font-['Poppins']">
+          Aumente sua produtividade em até 10X
+        </p>
+        <p class="text-center lg:text-[22px] font-medium font-['Poppins']">
+          Reduza seu tempo e custos de criação!
+        </p>
+      </section>
+      <section class="default-layout flex flex-col gap-9">
+        <h2 class="title title-center">A Inteligência Artificial ideal para</h2>
+        <div
+          class="grid grid-cols-2 sm:flex flex-wrap justify-center items-start gap-4"
+        >
+          <div class="ia-icone">
+            <img src="/ia-icones-01.svg" alt="" />
+            <p>Criadores de conteúdo</p>
+          </div>
+          <div class="ia-icone">
+            <img src="/ia-icones-02.svg" alt="" />
+            <p>E-commerce e dropshippers</p>
+          </div>
+          <div class="ia-icone">
+            <img src="/ia-icones-03.svg" alt="" />
+            <p>Agências e Social Medias</p>
+          </div>
+          <div class="ia-icone">
+            <img src="/ia-icones-04.svg" alt="" />
+            <p>Lançadores Digitais</p>
+          </div>
+          <div class="ia-icone">
+            <img src="/ia-icones-05.svg" alt="" />
+            <p>Negócios online</p>
+          </div>
+          <div class="ia-icone">
+            <img src="/ia-icones-06.svg" alt="" />
+            <p>Especialistas em SEO e UX</p>
+          </div>
+        </div>
+      </section>
+      <section class="relative overflow-x-hidden">
+        <img
+          class="absolute -right-[30px] bottom-0 w-[100px] lg:w-[197px] h-auto"
+          src="/robo-cortado.webp"
+          alt=""
+        />
+        <div
+          class="default-layout flex flex-wrap gap-4 lg:gap-8 items-center justify-center lg:justify-between lg:flex-nowrap"
+        >
+          <div
+            class="max-w-[444px] h-[320px] bg-blue/5 flex justify-center items-center w-full rounded-md"
+          >
+            <p class="font-bold">GIF/VIDEO AQUI</p>
+          </div>
+          <div
+            class="w-full max-w-[540px] flex-col lg:justify-start items-center lg:items-start gap-8 flex"
+          >
+            <h2 class="title">
+              Crie centenas de conteúdos personalizados, em minutos!
+            </h2>
+            <div class="flex flex-col gap-[4px]">
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">Resultado</p>
+              </div>
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">Qualidade e padrão</p>
+              </div>
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">Conteúdos e engajamento</p>
+              </div>
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">
+                  Contato com o público ou compradores
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-blue">
+        <p
+          class="w-full max-w-[550px] mx-auto lg:text-[28px] font-bold text-center font-poppins p-3"
+        >
+          Utilize ferramentas poderosas para cada uma de suas demandas!
+        </p>
+      </section>
+      <section class="default-layout flex flex-col items-center gap-9">
+        <h2 class="title title-center">Dezenas de comandos disponíveis!</h2>
+        <div class="grid lg:grid-cols-3 gap-[30px]">
+          <div
+            class="bg-[#141934] p-6 rounded-md flex flex-col items-center gap-4"
+          >
+            <img class="w-[72px] h-[72px]" src="cols-icon-1.svg" alt="" />
+            <h3 class="font-bold text-[22px] text-center font-poppins">
+              Criação de produtos e lançamentos
+            </h3>
+            <div class="flex flex-col gap-2">
+              <div class="flex gap-2">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Textos e copys para páginas de vendas
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Textos e copys para páginas de captura
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Gerador de régua de e-mails de alta conversão
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Gerador de texto para e-mail marketing
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Criador completo de e-books</p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Roteiros persuasivos de vendas (VSL)
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Mais ferramentas de automação</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-[#141934] p-6 rounded-md flex flex-col items-center gap-4"
+          >
+            <img class="w-[72px] h-[72px]" src="cols-icon-2.svg" alt="" />
+            <h3 class="font-bold text-[22px] text-center font-poppins">
+              Social Media, criadores e SEO
+            </h3>
+            <div class="flex flex-col gap-2">
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Planejamento e calendário para redes sociais
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Detalhamento de conteúdos de impacto
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Roteiros virais para reels</p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Roteiros virais para tiktok</p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Gerador expresso de legendas e hashtags
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Criador de roteiros completos para Youtube
+                </p>
+              </div>
+              <div class="flex gap-2">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Criador de títulos e legendas magnéticas para Youtube
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Ferramenta completa para SEO</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-[#141934] p-6 rounded-md flex flex-col items-center gap-4"
+          >
+            <img class="w-[72px] h-[72px]" src="cols-icon-3.svg" alt="" />
+            <h3 class="font-bold text-[22px] text-center font-poppins">
+              Vendas, anúncios e tráfego
+            </h3>
+            <div class="flex flex-col gap-2">
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Criador de carta de vendas de alta conversão
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Criador de conteúdos para promoção de produtos e serviços
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Gerador de estratégia para e-mails marketing
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Textos de vendas prontos para WhatsApp
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Gerador de link de WhatsApp + mensagem automatíca
+                </p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Copywriting persuasivo para vendas</p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">Conteúdos para redes sociais</p>
+              </div>
+              <div class="text-check-container">
+                <svg
+                  class="check-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="13"
+                  viewBox="0 0 17 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1 7.28922L5.87234 11.8333L16 1"
+                    stroke="#4A84E8"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold">
+                  Ferramenta de tráfego: público alvo, interesses, criativos
+                  completos
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="default-layout flex flex-col items-center gap-9">
+        <h2 class="title title-center">Para todas as redes sociais</h2>
+        <div class="flex flex-wrap justify-center w-full max-w-[744px] gap-6">
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-01.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-02.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-03.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-04.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-05.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-06.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-07.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-08.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-09.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-10.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-11.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-12.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-13.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-14.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-15.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="w-[54px] h-[54px]"
+            src="/icone-social-media-16.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </section>
+      <section class="relative">
+        <div
+          class="default-layout flex flex-wrap lg:flex-row-reverse gap-4 items-center justify-center lg:justify-between lg:flex-nowrap lg:gap-8"
+        >
+          <div class="w-full max-w-[445px] justify-start">
+            <img
+              class="w-full max-w-[334px] h-auto"
+              src="/pet-robo.webp"
+              width="334"
+              height="439"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div
+            class="w-full max-w-[540px] flex-col justify-start items-center lg:items-start gap-8 flex"
+          >
+            <h2 class="title">Como a IA pode mudar o seu negócio?</h2>
+            <div class="flex flex-col gap-[4px]">
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">
+                  Economia no seu tempo de criação
+                </p>
+              </div>
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">
+                  Aumente a produtividade sua e do seu time em até 5x
+                </p>
+              </div>
+              <div class="arrow-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="19"
+                  viewBox="0 0 15 19"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.93915 1.49153C8.15274 0.676534 6.84712 0.676538 6.0607 1.49154L0.980238 6.75669C-0.13655 7.91408 0.683645 9.84527 2.29199 9.84527C3.29872 9.84527 4.11483 10.6614 4.11483 11.6681V17C4.11483 18.1046 5.01026 19 6.11483 19H8.88563C9.9902 19 10.8856 18.1046 10.8856 17V11.668C10.8856 10.6613 11.7017 9.84527 12.7083 9.84527C14.3165 9.84527 15.1367 7.91423 14.02 6.75694L8.93915 1.49153Z"
+                    fill="#4A84E8"
+                  />
+                </svg>
+                <p class="font-semibold text-[18px]">
+                  Aumente seus resultados, aumentando seu alcance com qualidade
+                  e facilidade
+                </p>
+              </div>
+            </div>
+            <div class="justify-center items-start gap-4 flex">
+              <a href="#" class="default-btn"> Acessar agora </a>
+              <a href="#" class="default-btn outline-btn"> Saber mais </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="default-layout flex flex-col items-center gap-12">
+        <h2 class="title title-center">Como funciona</h2>
+        <div class="flex flex-wrap justify-center items-start gap-12">
+          <div class="flex flex-col items-center gap-4 w-full max-w-[306px]">
+            <div
+              class="w-[72px] h-[72px] bg-[#232b58] rounded-full justify-center items-center flex"
+            >
+              <div class="text-white text-[32px] font-bold font-['Poppins']">
+                01
+              </div>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="text-center font-poppins font-bold text-[22px] px-4">
+                Você tem atividades para fazer
+              </h3>
+              <p class="font-semibold text-center text-[18px]">
+                Você precisa criar conteúdos, interações ou fazer vendas, e
+                precisa dedicar energia e tempo!
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-4 w-full max-w-[306px]">
+            <div
+              class="w-[72px] h-[72px] bg-[#232b58] rounded-full justify-center items-center flex"
+            >
+              <div class="text-white text-[32px] font-bold font-['Poppins']">
+                02
+              </div>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="text-center font-poppins font-bold text-[22px] px-4">
+                Escolha uma das automações
+              </h3>
+              <p class="font-semibold text-center text-[18px]">
+                Para cada demanda, uma solução diferente! Basta escolher e
+                colocar alguns dados de entrada
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-4 w-full max-w-[306px]">
+            <div
+              class="w-[72px] h-[72px] bg-[#232b58] rounded-full justify-center items-center flex"
+            >
+              <div class="text-white text-[32px] font-bold font-['Poppins']">
+                03
+              </div>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="text-center font-poppins font-bold text-[22px] px-4">
+                Atividade feita com sucesso!
+              </h3>
+              <p class="font-semibold text-center text-[18px]">
+                Em poucos segundos você vai ter seu conteúdo gerado com
+                altíssima qualidade
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="lg:h-[64px]"></div>
+      <section class="bg-[#141934]">
+        <div class="default-layout py-bigger flex flex-col items-center gap-8">
+          <h2 class="title title-center">Nossos Planos</h2>
+          <div class="grid md:grid-cols-2 gap-[30px]">
+            <div
+              class="bg-[#1d2349] p-8 rounded-md flex flex-col items-center justify-between gap-8"
+            >
+              <div class="flex flex-col gap-8">
+                <h3
+                  class="font-bold text-[36px] lg:text-[54px] font-poppins md:h-[92px]"
+                >
+                  Free
+                </h3>
+                <div class="flex flex-col gap-2">
+                  <div class="text-check-container">
+                    <svg
+                      class="check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17"
+                      height="13"
+                      viewBox="0 0 17 13"
+                      fill="none"
+                    >
+                      <path
+                        d="M1 7.28922L5.87234 11.8333L16 1"
+                        stroke="#4A84E8"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <p class="font-semibold">1 acesso pessoal</p>
+                  </div>
+                  <div class="text-check-container">
+                    <svg
+                      class="check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17"
+                      height="13"
+                      viewBox="0 0 17 13"
+                      fill="none"
+                    >
+                      <path
+                        d="M1 7.28922L5.87234 11.8333L16 1"
+                        stroke="#4A84E8"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <p class="font-semibold">Acesso a mais de 50 ferramentas</p>
+                  </div>
+                  <div class="text-check-container">
+                    <svg
+                      class="check-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17"
+                      height="13"
+                      viewBox="0 0 17 13"
+                      fill="none"
+                    >
+                      <path
+                        d="M1 7.28922L5.87234 11.8333L16 1"
+                        stroke="#4A84E8"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <p class="font-semibold">10 créditos disponíveis</p>
+                  </div>
+                </div>
+              </div>
+              <a class="default-btn outline-btn" href="#">Escolher</a>
+            </div>
+            <div
+              class="bg-white p-8 rounded-md flex flex-col items-center gap-8"
+            >
+              <div class="flex flex-col">
+                <h3
+                  class="font-bold text-[36px] lg:text-[54px] font-poppins text-black w-full max-w-[320px]"
+                >
+                  R$ 29,90
+                  <span class="text-[18px] font-medium leading-[-10px]"
+                    >/mês
+                  </span>
+                </h3>
+                <p
+                  class="text-[14px] md:text-[18px] font-medium text-black -mt-2 md:-mt-4"
+                >
+                  R$ 478,80 cobrado anualmente
+                </p>
+              </div>
+              <div class="flex flex-col gap-2 text-black">
+                <div class="text-check-container">
+                  <svg
+                    class="check-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="13"
+                    viewBox="0 0 17 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 7.28922L5.87234 11.8333L16 1"
+                      stroke="#4A84E8"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-semibold">Acesso ilimitado</p>
+                </div>
+                <div class="text-check-container">
+                  <svg
+                    class="check-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="13"
+                    viewBox="0 0 17 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 7.28922L5.87234 11.8333L16 1"
+                      stroke="#4A84E8"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-semibold">Acesso a mais de 50 ferramentas</p>
+                </div>
+                <div class="text-check-container">
+                  <svg
+                    class="check-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="13"
+                    viewBox="0 0 17 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 7.28922L5.87234 11.8333L16 1"
+                      stroke="#4A84E8"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-semibold">50 créditos novos todos os meses</p>
+                </div>
+                <div class="text-check-container">
+                  <svg
+                    class="check-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="13"
+                    viewBox="0 0 17 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 7.28922L5.87234 11.8333L16 1"
+                      stroke="#4A84E8"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-semibold">Interação com desenvolvedores</p>
+                </div>
+                <div class="text-check-container">
+                  <svg
+                    class="check-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="13"
+                    viewBox="0 0 17 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 7.28922L5.87234 11.8333L16 1"
+                      stroke="#4A84E8"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-semibold">Suporte humano</p>
+                </div>
+                <div class="text-check-container">
+                  <svg
+                    class="check-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="13"
+                    viewBox="0 0 17 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 7.28922L5.87234 11.8333L16 1"
+                      stroke="#4A84E8"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-semibold">Acesso a treinamentos exclusivos</p>
+                </div>
+              </div>
+              <a href="#" class="default-btn btn-black">Escolher</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="lg:h-[64px]"></div>
+      <section class="default-layout flex flex-col items-center gap-9">
+        <h2 class="title title-center">Depoimentos</h2>
+        <div class="flex flex-wrap justify-center gap-8 w-full">
+          <div
+            class="max-w-[320px] h-[320px] bg-blue/5 flex justify-center items-center w-full rounded-md"
+          >
+            <p class="font-bold">GIF/VIDEO AQUI</p>
+          </div>
+          <div
+            class="max-w-[320px] h-[320px] bg-blue/5 flex justify-center items-center w-full rounded-md"
+          >
+            <p class="font-bold">GIF/VIDEO AQUI</p>
+          </div>
+          <div
+            class="max-w-[320px] h-[320px] bg-blue/5 flex justify-center items-center w-full rounded-md"
+          >
+            <p class="font-bold">GIF/VIDEO AQUI</p>
+          </div>
+        </div>
+      </section>
+      <section class="default-layout flex flex-col items-center gap-9">
+        <h2 class="title title-center w-full max-w-[650px]">
+          Rolou até aqui e ainda não se decidiu? Nos dê uma chance!
+        </h2>
+        <div class="justify-center items-start gap-4 flex">
+          <a href="#" class="default-btn"> Acessar agora </a>
+          <a href="#" class="default-btn outline-btn"> Saber mais </a>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#141934]">
+      <div
+        class="w-full max-w-[1110px] xl:px-0 mx-auto p-8 flex gap-4 flex-wrap justify-center items-center sm:justify-between"
+      >
+        <img
+          width="51"
+          height="29"
+          src="/logo-sem-texto.png"
+          alt=""
+          srcset=""
+        />
+        <p class="font-semibold">Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>

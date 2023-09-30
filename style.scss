@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "_breakpoints";
+@import "_header";
+
+$poppins: "Open Sans", sans-serif;
+$roboto: "Poppins", sans-serif;
+
+.default-layout {
+  @apply w-full max-w-[1110px] mx-auto p-8 xl:px-0 py-[60px] relative z-[10];
+}
+
+.default-layout.py-bigger {
+  @apply lg:py-[96px];
+}
+
+.title {
+  @apply text-white text-[26px] lg:text-[32px] font-bold font-['Poppins'] text-center lg:text-left;
+}
+
+.title.title-center {
+  @apply text-center;
+}
+
+.default-btn {
+  @apply bg-blue hover:bg-blue/90 text-white text-center font-semibold text-base px-4 py-[10px] rounded-md;
+}
+
+.default-btn.btn-black {
+  @apply bg-black hover:bg-black/90;
+}
+
+.default-btn.outline-btn {
+  @apply bg-[transparent] hover:bg-white/5	text-white border border-white border-solid text-center font-semibold text-base px-4 py-[10px] rounded-md;
+}
+
+.default-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ia-icone {
+  @apply w-full max-w-[155px] h-full h-[180px] bg-[#141934] flex justify-center flex-col items-center gap-2 p-3 rounded-md justify-self-center self-center;
+}
+
+.ia-icone img {
+  @apply w-[72px] h-[72px];
+}
+
+.ia-icone p {
+  @apply text-[18px] font-semibold text-center;
+}
+
+.arrow-text {
+  @apply flex gap-2 items-start;
+}
+
+.arrow-text svg {
+  @apply flex-shrink-0;
+}
+
+.check-icon {
+  @apply mt-[5px] flex-shrink-0;
+}
+
+.text-check-container {
+  @apply flex gap-3;
+}
